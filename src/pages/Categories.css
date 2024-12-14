@@ -1,0 +1,30 @@
+.slick-prev:before {
+  color: black;
+  background-color: transparent;
+  font-size: 50px;
+}
+.slick-next:before {
+  color: black;
+  background-color: transparent;
+  font-size: 50px;
+}
+
+/* .slick-prev{
+  top:12px;
+  left: 1470px;
+} */
+.slick-next {
+  right: 20px;
+  /* top: 12px; */
+}
+.slick-dots li button:before {
+  font-size: 15px;
+}
+@media only screen and (max-width: 1246px) {
+  .slick-next:before {
+    display: none;
+  }
+  .slick-prev::before {
+    display: none;
+  }
+}
